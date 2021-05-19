@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Company Name -->
+		<title>Blog</title>
+		
+		<!-- Company Icon -->
+		<link rel="icon" href="images/logo.png">
+		
+		<!-- Google Font  -->
+		<link rel="stylesheet" href="css/tailwind.min.css">
+		<style>
+			.max-width-1024{
+				max-width: 1024px !important;
+				margin: auto;
+			}
+			.max-h-50vh{
+				max-height: 50vh !important;
+			}
+		</style>
+	</head>
+	<body class="max-width-1024">
+		<header>
+  
+		</header>
+		<main>
+			<!-- == 001 Section == -->
+			<section>
+				<!---->
+				<div class=" grid lg:grid-cols-2 gap-4 pt-20 lg:border-b-0 border-b border-yellow-100">
+					<!---->
+					<div class=" lg:p-12 lg:pr-0 lg:pt-0">
+						<img class=" max-h-50vh w-full object-cover" src="images/001.jpeg" alt="">
+					</div>
+					<!---->
+					<div class="lg:px-8 px-4">
+						<!---->
+						<a class="hover:underline font-bold uppercase text-yellow-600 text-lg" href="#">Blog</a>
+						<!---->
+						<a class=" cursor-pointer" href="growing-the-pie-for-writers.html">
+							<h1 class=" text-3xl text-black font-bold tracking-tight py-2 pt-1">Growing the pie for writers</h1>
+							<p class=" text-gray-700 text-lg leading-normal pt-1">We've acquired People & Company to accelerate and celebrate writer success</p>
+						</a>
+						<!---->
+						<div class=" flex items-center py-8 cursor-pointer">
+							<!---->
+							<a class="hover:underline text-sm text-gray-500 font-light" href="#">Hamish McKenzie</a>
+							<!---->
+							<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+								<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+								<span class="pl-1"> 87</span>
+							</a>
+							<!---->
+							<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+								<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+								<span class="pl-1"> 21</span>
+							</a>
+							<!---->
+							<!---->
+							<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+								<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+							</a>
+							<!---->
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div x-data="{tab:'tab1'}" class=" pt-10 lg:px-28 px-4 relative">
+					<!---->
+					<div class="flex items-center border-b">
+						<!---->
+						<button @click.prevent="tab='tab1'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab1'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">New</button>
+						<!---->
+						<button @click.prevent="tab='tab2'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab2'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">Top</button>
+						<!---->
+						<button @click.prevent="tab='tab3'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab3'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">Community</button>
+						<!---->
+						<a href="#" @click="tab='tab4'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab4'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">What is Substack?</a>
+						<!---->
+						<button @click.prevent="tab='tab5'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab5'}" class=" py-2 mr-4 border-b-0 border-yellow-600 focus:outline-none text-sm hover:text-yellow-600 text-gray-500 px-2">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+							  </svg>
+						</button>
+					</div>
+					<!---->
+					<div x-show="tab === 'tab1'">
+						<!--------------001------------------>
+						<div class=" grid sm:grid-cols-4 py-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/002.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New: Add sections to your publication</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re releasing publication sections, which allow you to create and manage multiple newsletters or podcasts within a single main publication.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">May 6</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 100</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 116</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------002------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/003.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New: More control over your subscriptions and community</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re sharing three new features that give you more control over your publication’s subscriptions and community. As a writer, you own your relat…</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Apr 29</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 48</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 22</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------003------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/004.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">Introducing Substack Local, for a new generation of local news</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re announcing Substack Local, a $1m initiative to foster and develop the local news ecosystem.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Apr 15</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 100</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 23</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------004------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/005.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">Investing in writers</h1>
+									<p class=" text-gray-500 leading-normal">When we started Substack, we didn’t know if the model would work. Today, more than half a million people pay to subscribe to a publication on the platf…</p>
+								</a>
+								<!---->
+								<div class="text-gray-800 cursor-pointer py-2 pb-3">
+									<a href="#">Rob C</a>
+								</div>
+								<!---->
+								<div class=" flex items-center cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 23</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 168</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 49</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------005------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/006.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New! Homepage links, restore post drafts, and improved stats page</h1>
+									<p class=" text-gray-500 leading-normal">We’ve recently added some new features to improve the publishing experience on Substack. Recommended links First, you can now add links to your Substac…</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 77</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 93</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------006------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/007.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">How we approach moderation decisions</h1>
+									<p class=" text-gray-500 leading-normal">This post is an attempt to offer further clarity on how and why we make our moderation decisions.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 132</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 230</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------007------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/005.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">Substack is for independent writers</h1>
+									<p class=" text-gray-500 leading-normal">A response to some questions about Substack Pro, our program that funds writers to start new publications. </p>
+								</a>
+								<!---->
+								<div class="text-gray-800 cursor-pointer py-2 pb-3">
+									<a href="#">Chris Best</a>
+									<span>,</span>
+									<a href="#">Hamish McKenzie</a>
+									<span>, and</span>
+									<a href="#">Jairaj</a>
+								</div>
+								<!---->
+								<div class=" flex items-center cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 132</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 230</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------see all button------------------>
+						<div class=" py-5 px-4 md:border-b-0 border-b border-yellow-100">
+							<button class="flex items-center focus:outline-none text-gray-800 text-sm">
+								<span>See all </span>
+								<span>
+									<svg role="img" class="h-2 w-2 " viewBox="0 0 9 17" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><g><title></title><path d="M1 1L8 8.5L1 16"></path></g></svg>
+								</span>
+							</button>
+						</div>
+					</div>
+					<!---->
+					<div x-show="tab === 'tab2'">
+						<!--------------004------------------>
+						<div class=" grid sm:grid-cols-4 py-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/008.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">Investing in writers</h1>
+									<p class=" text-gray-500 leading-normal">When we started Substack, we didn’t know if the model would work. Today, more than half a million people pay to subscribe to a publication on the platf…</p>
+								</a>
+								<!---->
+								<div class="text-gray-800 cursor-pointer py-2 pb-3">
+									<a href="#">Rob C</a>
+								</div>
+								<!---->
+								<div class=" flex items-center cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 23</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 168</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 49</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------005------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/009.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New! Homepage links, restore post drafts, and improved stats page</h1>
+									<p class=" text-gray-500 leading-normal">We’ve recently added some new features to improve the publishing experience on Substack. Recommended links First, you can now add links to your Substac…</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 77</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 93</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------006------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/010.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">How we approach moderation decisions</h1>
+									<p class=" text-gray-500 leading-normal">This post is an attempt to offer further clarity on how and why we make our moderation decisions.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 132</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 230</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------002------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/011.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New: More control over your subscriptions and community</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re sharing three new features that give you more control over your publication’s subscriptions and community. As a writer, you own your relat…</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Apr 29</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 48</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 22</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------003------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/012.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">Introducing Substack Local, for a new generation of local news</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re announcing Substack Local, a $1m initiative to foster and develop the local news ecosystem.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Apr 15</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 100</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 23</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------001------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/013.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New: Add sections to your publication</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re releasing publication sections, which allow you to create and manage multiple newsletters or podcasts within a single main publication.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">May 6</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 100</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 116</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------007------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/005.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">Substack is for independent writers</h1>
+									<p class=" text-gray-500 leading-normal">A response to some questions about Substack Pro, our program that funds writers to start new publications. </p>
+								</a>
+								<!---->
+								<div class="text-gray-800 cursor-pointer py-2 pb-3">
+									<a href="#">Chris Best</a>
+									<span>,</span>
+									<a href="#">Hamish McKenzie</a>
+									<span>, and</span>
+									<a href="#">Jairaj</a>
+								</div>
+								<!---->
+								<div class=" flex items-center cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 132</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 230</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------see all button------------------>
+						<div class=" py-5 px-4 md:border-b-0 border-b border-yellow-100">
+							<button class="flex items-center focus:outline-none text-gray-800 text-sm">
+								<span>See all </span>
+								<span>
+									<svg role="img" class="h-2 w-2 " viewBox="0 0 9 17" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><g><title></title><path d="M1 1L8 8.5L1 16"></path></g></svg>
+								</span>
+							</button>
+						</div>
+					</div>
+					<!---->
+					<div x-show="tab === 'tab3'">
+						<!--------------001------------------>
+						<div class=" grid sm:grid-cols-4 py-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/002.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New: Add sections to your publication</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re releasing publication sections, which allow you to create and manage multiple newsletters or podcasts within a single main publication.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">May 6</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 100</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 116</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------005------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/009.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New! Homepage links, restore post drafts, and improved stats page</h1>
+									<p class=" text-gray-500 leading-normal">We’ve recently added some new features to improve the publishing experience on Substack. Recommended links First, you can now add links to your Substac…</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 77</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 93</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------006------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/010.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">How we approach moderation decisions</h1>
+									<p class=" text-gray-500 leading-normal">This post is an attempt to offer further clarity on how and why we make our moderation decisions.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 132</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 230</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------006------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/013.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">How we approach moderation decisions</h1>
+									<p class=" text-gray-500 leading-normal">This post is an attempt to offer further clarity on how and why we make our moderation decisions.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 132</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 230</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------002------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/011.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New: More control over your subscriptions and community</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re sharing three new features that give you more control over your publication’s subscriptions and community. As a writer, you own your relat…</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Apr 29</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 48</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 22</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------003------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/012.jpeg" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">Introducing Substack Local, for a new generation of local news</h1>
+									<p class=" text-gray-500 leading-normal">Today, we’re announcing Substack Local, a $1m initiative to foster and develop the local news ecosystem.</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Apr 15</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 100</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 23</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------005------------------>
+						<div class=" grid sm:grid-cols-4 pb-6">
+							<!---->
+							<div class="sm:col-span-1 col-span-2 hidden sm:block">
+								<img class=" w-full" src="images/006.png" alt="">
+							</div>
+							<!---->
+							<div class="px-5 sm:col-span-3 col-span-2">
+								<!---->
+								<a class=" cursor-pointer" href="#">
+									<h1 class=" text-lg text-black font-bold tracking-tight pb-2">New! Homepage links, restore post drafts, and improved stats page</h1>
+									<p class=" text-gray-500 leading-normal">We’ve recently added some new features to improve the publishing experience on Substack. Recommended links First, you can now add links to your Substac…</p>
+								</a>
+								<!---->
+								<div class=" flex items-center pt-3 cursor-pointer">
+									<!---->
+									<a class="text-sm text-gray-500 font-light" href="#">Mar 26</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 15 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 15px;"><g><title></title><path d="M1.73624 5.1145C2.43974 4.37137 3.37095 4 4.3036 4C5.23626 4 6.16745 4.37137 6.87097 5.1145L7.49949 5.77892L8.1227 5.11986C9.52973 3.63357 11.8557 3.6336 13.2627 5.11986C14.6698 6.60612 14.6698 8.98642 13.2627 10.4727C11.4639 12.3728 9.66583 14.2737 7.86703 16.1738C7.81927 16.2242 7.76183 16.2643 7.6982 16.2918C7.63456 16.3192 7.56606 16.3333 7.49683 16.3333C7.42761 16.3333 7.3591 16.3192 7.29547 16.2918C7.23184 16.2643 7.1744 16.2242 7.12664 16.1738L5.77904 14.7472L3.08384 11.8939L1.73624 10.4673C0.331003 8.98011 0.329213 6.60074 1.73624 5.1145Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 77</span>
+									</a>
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 14 20" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 14px;"><g><title>Comment</title><path d="M7.47092 13.7982L7.32727 13.6656H7.13176H2.14118C1.22171 13.6656 0.5 12.944 0.5 12.0679V6.09766C0.5 5.22165 1.22171 4.5 2.14118 4.5H11.8588C12.7783 4.5 13.5 5.22165 13.5 6.09766V12.0679C13.5 12.944 12.7783 13.6656 11.8588 13.6656H10.5412H10.0412V14.1656V16.1657C10.0392 16.1649 10.0339 16.1625 10.0255 16.1565L7.47092 13.7982Z" stroke="#999999"></path></g></svg>
+										<span class="pl-1"> 93</span>
+									</a>
+									<!---->
+									<!---->
+									<a class="text-sm text-gray-500 font-light flex items-center pl-4" href="#">
+										<svg role="img" viewBox="0 0 11 20" fill="none" stroke-width="1" stroke="#999999" xmlns="http://www.w3.org/2000/svg" style="height: 20px; width: 11px;"><g><title>Share</title><path d="M4.125 6H1.6875C1.13522 6 0.6875 6.44772 0.6875 7V13.6667C0.6875 14.219 1.13522 14.6667 1.6875 14.6667H9.3125C9.86478 14.6667 10.3125 14.219 10.3125 13.6667V7C10.3125 6.44772 9.86478 6 9.3125 6H6.875"></path><path d="M2.75 4.33333L5.5 2L8.25 4.33333"></path><path d="M5.5 2V10"></path></g></svg>
+									</a>
+									<!---->
+								</div>
+							</div>
+						</div>
+						<!--------------see all button------------------>
+						<div class=" py-5 px-4 md:border-b-0 border-b border-yellow-100">
+							<button class="flex items-center focus:outline-none text-gray-800 text-sm">
+								<span>See all </span>
+								<span>
+									<svg role="img" class="h-2 w-2 " viewBox="0 0 9 17" fill="none" stroke-width="1" stroke="#000" xmlns="http://www.w3.org/2000/svg"><g><title></title><path d="M1 1L8 8.5L1 16"></path></g></svg>
+								</span>
+							</button>
+						</div>
+					</div>
+					<!---->
+					<div x-show="tab === 'tab4'">
+						<h1 class=" py-4 text-gray-500 px-4">Loading........</h1>
+					</div>
+					<!---->
+					<div x-show="tab === 'tab5'" @click.away="tab='tab1'" class="-mt-10">
+						<div class="flex -mt-10">
+							<!---->
+							<button class="text-gray-500 bg-gray-200 p-2 border-b border-yellow-600 focus:outline-none">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+								</svg>
+							</button>
+							<!---->
+							<input class=" w-full p-2 bg-gray-200 focus:outline-none" type="text" placeholder="Search....">
+							<!---->
+							<button @click="tab='tab1'" class="text-gray-400 hover:text-gray-500 bg-gray-200 p-2 focus:outline-none">
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+									<path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+								</svg>
+							</button>
+						</div>
+						<div>
+							<h3 class="pt-4 pb-28 font-bold text-lg text-gray-500">Search blog</h3>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class=" px-4 py-10">
+					<h4 class=" border-b border-yellow-600 inline-block py-2">Blog</h4>
+					<!---->
+					<div class=" py-3 pt-5 flex items-center">
+						<input class="py-1 mr-0 px-4 w-72 h-12 bg-gray-100 rounded-l placeholder-gray-400 focus:outline-none" type="text" placeholder="Type your email…">
+						<button class="py-1 px-6 h-12  bg-yellow-600 text-white focus:outline-none rounded-r">Subscribe</button>
+					</div>
+					<!---->
+					<a class=" text-gray-800 text-sm hover:underline block" href="#">What is Substack?</a>
+					<!---->
+					<a class=" text-gray-800 text-sm hover:underline block mt-4" href="#">Archive</a>
+					<!---->
+					<a class=" text-gray-800 text-sm hover:underline block mt-4" href="#">Authors</a>
+					<!---->
+					<a class=" text-gray-800 text-sm hover:underline block mt-4" href="#">My Account</a>
+				</div>
+			</section>
+		</main>
+		<footer>
+		
+		</footer>
+		
+		<!--  alpine js -->
+		<script src="js/alpine.min.js"></script>
+	</body>
+	
+</html>
+
+
+
+
+
+
+
