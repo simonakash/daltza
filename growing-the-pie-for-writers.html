@@ -38,10 +38,10 @@
 				<!---->
 				<div class=" pt-10">
 					<!---->
-					<a class="hover:underline font-bold uppercase text-yellow-600 text-lg" href="#">Blog</a>
+					<a class="hover:underline text-blue-700 font-bold uppercase text-lg" href="#">Blog</a>
 					<!---->
 					<a class=" cursor-pointer" href="#">
-						<h1 class=" text-4xl text-black font-bold tracking-tight py-2 pt-1">Growing the pie for writers</h1>
+						<h1 class=" text-4xl text-blue-600 font-bold tracking-tight py-2 pt-1">Growing the pie for writers</h1>
 						<p class=" text-gray-500 text-lg leading-normal">We've acquired People & Company to accelerate and celebrate writer success</p>
 					</a>
 					<!---->
@@ -93,7 +93,7 @@
 						<p class="py-4">Those gatekeepers haven’t disappeared –&nbsp;CNN is still big, people still enjoy Hollywood movies, and in fact Netflix came along and added even more options into the mix – but there is now a massive new class of creatives who can support themselves independently through work they care deeply about. Less than a decade after Anna’s rejected pitch, we’re all now like, “Oh yeah, of course YouTubers are a thing”.</p>
 						<p>This market-expanding effect is something we aspire to with Substack. In our company’s <a class="underline text-gray-900 text-lg font-semibold" href="#">founding essay</a>, we envisioned a model that would unleash writing talent that wasn’t well supported by the dominant media structure:&nbsp;&nbsp;</p>
 						<blockquote class="my-4 flex">
-							<div class=" w-8 mr-4 object-contain bg-yellow-600"></div>
+							<div class=" w-8 mr-4 object-contain bg-blue-600"></div>
 							<p>Substack serves writers who are striking out on their own. Some of these will be professionals who can quit their jobs and financially support themselves by channeling their expertise into publications that they control. Others will be part-timers who are otherwise employed as teachers, academics, laborers, insurance agents, administrators, salespeople&nbsp;–&nbsp;or any number of other jobs – but can now earn money by writing about their passions. Entrepreneurial writers and editors may band together to bootstrap media companies focused on subjects that aren’t well covered in the existing media marketplace.</p>
 						</blockquote>
 						<p>Three-point-seven-five years later, we’re excited to see the previously unknown 22-year-old college grad building a hugely successful <a class="underline text-gray-900 text-lg font-semibold" href="#">financial newsletter</a>; and the product manager reinventing himself as a <a class="underline text-gray-900 text-lg font-semibold" href="#">media entrepreneur</a>; and the microbiologist creating an <a class="underline text-gray-900 text-lg font-semibold" href="#">important public health resource</a> for her state. But there’s so much further to go.&nbsp;</p>
@@ -139,15 +139,15 @@
 					<!-------------------------------->
 					<div class="flex items-center border-b">
 						<!--------------->
-						<button @click.prevent="tab='tab1'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab1'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">New</button>
+						<button @click.prevent="tab='tab1'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab1'}" class=" mr-4 border-b-0 border-blue-600 py-2 focus:outline-none text-sm hover:text-blue-600 text-gray-500">New</button>
 						<!--------------->
-						<button @click.prevent="tab='tab2'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab2'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">Top</button>
+						<button @click.prevent="tab='tab2'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab2'}" class=" mr-4 border-b-0 border-blue-600 py-2 focus:outline-none text-sm hover:text-blue-600 text-gray-500">Top</button>
 						<!--------------->
-						<button @click.prevent="tab='tab3'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab3'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">Community</button>
+						<button @click.prevent="tab='tab3'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab3'}" class=" mr-4 border-b-0 border-blue-600 py-2 focus:outline-none text-sm hover:text-blue-600 text-gray-500">Community</button>
 						<!--------------->
-						<a href="#" @click="tab='tab4'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab4'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">What is Substack?</a>
+						<a href="#" @click="tab='tab4'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab4'}" class=" mr-4 border-b-0 border-blue-600 py-2 focus:outline-none text-sm hover:text-blue-600 text-gray-500">What is Substack?</a>
 						<!--------------->
-						<button @click.prevent="tab='tab5'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab5'}" class=" py-2 mr-4 border-b-0 border-yellow-600 focus:outline-none text-sm hover:text-yellow-600 text-gray-500 px-2">
+						<button @click.prevent="tab='tab5'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab5'}" class=" py-2 mr-4 border-b-0 border-blue-600 focus:outline-none text-sm hover:text-blue-600 text-gray-500 px-2">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 							  </svg>
@@ -525,7 +525,7 @@
 					<div x-show="tab === 'tab5'" @click.away="tab='tab1'" class="-mt-10">
 						<div class="flex -mt-10">
 							<!--------------->
-							<button class="text-gray-500 bg-gray-200 p-2 border-b border-yellow-600 focus:outline-none">
+							<button class="text-gray-500 bg-gray-200 p-2 border-b border-blue-600 focus:outline-none">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 								</svg>
@@ -547,11 +547,11 @@
 			</section>
 			<section>
 				<!--------------butoon------------------>
-				<div class=" bg-yellow-600 flex items-center justify-center py-24">
+				<div class=" bg-blue-500 flex items-center justify-center py-24">
 					<!--------------->
 					<div class=" py-3 pt-5 flex items-center">
 						<input class="py-1 border border-white mr-0 px-4 w-72 h-12 bg-gray-200 rounded-l placeholder-gray-400 focus:outline-none" type="text" placeholder="Type your email…">
-						<button class="py-1 px-6 h-12 bg-yellow-600 text-white focus:outline-none rounded-r border border-white font-semibold">Subscribe</button>
+						<button class="py-1 px-6 h-12 text-white focus:outline-none rounded-r border border-white font-semibold">Subscribe</button>
 					</div>
 				</div>
 			</section>

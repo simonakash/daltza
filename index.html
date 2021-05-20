@@ -38,10 +38,10 @@
 					<!---->
 					<div class="lg:px-8 px-4">
 						<!---->
-						<a class="hover:underline font-bold uppercase text-yellow-600 text-lg" href="#">Blog</a>
+						<a class="hover:underline font-bold uppercase text-blue-700 text-lg" href="#">Blog</a>
 						<!---->
 						<a class=" cursor-pointer" href="growing-the-pie-for-writers.html">
-							<h1 class=" text-3xl text-black font-bold tracking-tight py-2 pt-1">Growing the pie for writers</h1>
+							<h1 class=" text-3xl text-black font-bold tracking-tight py-2 pt-1 text-blue-600">Growing the pie for writers</h1>
 							<p class=" text-gray-700 text-lg leading-normal pt-1">We've acquired People & Company to accelerate and celebrate writer success</p>
 						</a>
 						<!---->
@@ -72,15 +72,15 @@
 					<!---->
 					<div class="flex items-center border-b">
 						<!---->
-						<button @click.prevent="tab='tab1'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab1'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">New</button>
+						<button @click.prevent="tab='tab1'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab1'}" class=" mr-4 border-b-0 border-blue-600 py-2 focus:outline-none text-sm hover:text-blue-600 text-gray-500">New</button>
 						<!---->
-						<button @click.prevent="tab='tab2'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab2'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">Top</button>
+						<button @click.prevent="tab='tab2'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab2'}" class=" mr-4 border-b-0 border-blue-600 py-2 focus:outline-none text-sm hover:text-blue-600 text-gray-500">Top</button>
 						<!---->
-						<button @click.prevent="tab='tab3'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab3'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">Community</button>
+						<button @click.prevent="tab='tab3'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab3'}" class=" mr-4 border-b-0 border-blue-600 py-2 focus:outline-none text-sm hover:text-blue-600 text-gray-500">Community</button>
 						<!---->
-						<a href="#" @click="tab='tab4'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab4'}" class=" mr-4 border-b-0 border-yellow-600 py-2 focus:outline-none text-sm hover:text-yellow-600 text-gray-500">What is Substack?</a>
+						<a href="#" @click="tab='tab4'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab4'}" class=" mr-4 border-b-0 border-blue-600 py-2 focus:outline-none text-sm hover:text-blue-600 text-gray-500">What is Substack?</a>
 						<!---->
-						<button @click.prevent="tab='tab5'" :class="{'text-yellow-600 border-b-2 font-semibold': tab==='tab5'}" class=" py-2 mr-4 border-b-0 border-yellow-600 focus:outline-none text-sm hover:text-yellow-600 text-gray-500 px-2">
+						<button @click.prevent="tab='tab5'" :class="{'text-blue-600 border-b-2 font-semibold': tab==='tab5'}" class=" py-2 mr-4 border-b-0 border-blue-600 focus:outline-none text-sm hover:text-blue-600 text-gray-500 px-2">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 							  </svg>
@@ -910,7 +910,7 @@
 					<div x-show="tab === 'tab5'" @click.away="tab='tab1'" class="-mt-10">
 						<div class="flex -mt-10">
 							<!---->
-							<button class="text-gray-500 bg-gray-200 p-2 border-b border-yellow-600 focus:outline-none">
+							<button class="text-gray-500 bg-gray-200 p-2 border-b border-blue-600 focus:outline-none">
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 								</svg>
@@ -931,11 +931,11 @@
 				</div>
 				<!---->
 				<div class=" px-4 py-10">
-					<h4 class=" border-b border-yellow-600 inline-block py-2">Blog</h4>
+					<h4 class=" border-b border-blue-600 inline-block py-2">Blog</h4>
 					<!---->
 					<div class=" py-3 pt-5 flex items-center">
 						<input class="py-1 mr-0 px-4 w-72 h-12 bg-gray-100 rounded-l placeholder-gray-400 focus:outline-none" type="text" placeholder="Type your email…">
-						<button class="py-1 px-6 h-12  bg-yellow-600 text-white focus:outline-none rounded-r">Subscribe</button>
+						<button class="py-1 px-6 h-12  bg-yellow-500 text-white focus:outline-none rounded-r font-semibold">Subscribe</button>
 					</div>
 					<!---->
 					<a class=" text-gray-800 text-sm hover:underline block" href="#">What is Substack?</a>
